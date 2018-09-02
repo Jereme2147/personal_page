@@ -1,0 +1,36 @@
+@media screen and (min-width: 435px){
+    #bottomContent {
+        height: 100%;
+        width: 100%; 
+        display: flex; 
+        flex-flow: row wrap; 
+        justify-content: space-around;
+        align-content: space-around; 
+    }
+    .bottoms {
+        width: 40%;
+        height: 40%;
+    }
+    #container {
+        display: flex; 
+        flex-direction: row; 
+        align-items: flex-start;
+    }
+    #contentContainer {
+       width: 70%; 
+       height: 100vh;
+       display: flex; 
+       flex-direction: column;
+    }
+    
+    nav {
+        width: 30%;
+        height: 100vh; 
+        background-image: linear-gradient(90deg,  #639FAB , #BBCDE5);
+    }
+   
+    #topContent {
+        height: 50%;
+        width: 100%; 
+    }
+}

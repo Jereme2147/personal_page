@@ -1,0 +1,39 @@
+@media screen and (max-width: 434px){
+    #bottomContent {
+        width: 100%; 
+        display: flex; 
+        flex-basis: content;
+        flex-grow: 1; 
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .bottoms {
+        margin: auto; 
+        width: 60%;
+        height: 150px;
+        margin-top: 20px; 
+
+    }
+    .bottomRow img {
+        width: 35%; 
+    }
+    #container {
+        display: flex; 
+        flex-direction: column; 
+    }
+    #contentContainer {
+       width: 100%; 
+       display: flex; 
+       flex-direction: column;
+    }
+    nav {
+        width: 100%;
+        height: 20vh; 
+        background-image: linear-gradient(180deg,  #639FAB , #BBCDE5);
+    }
+    #topContent {
+        flex-grow: 2; 
+        /* height: 200px; */
+        width: 100%; 
+    }
+}
